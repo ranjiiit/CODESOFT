@@ -1,16 +1,12 @@
-# Task 1. is :- Simple Calculator
-
 print("Simple Calculator")
 print("-----------------")
 
-#  we will taking  Input of  two numbers
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-# ask to user for  operation
+
 op = input("Enter operation (+, -, *, /): ")
 
-# from here calculation start Performing.
 if op == '+':
     result = num1 + num2
     print(f"Result: {num1} + {num2} = {result}")
@@ -32,3 +28,4 @@ elif op == '/':
 
 else:
     print("Invalid operation choice!")
+
